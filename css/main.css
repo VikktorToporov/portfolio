@@ -183,6 +183,8 @@ section h1 {
     font-size: 1.7em;
     margin: 0;
     position: relative;
+    /* FIREFOX FIX*/
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -204,11 +206,11 @@ section h1::after {
     padding: 2em 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+    grid-gap: 1em;
 }
 
 .flip {
     position: relative;
-    margin: 1em 1em 0 0;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -298,11 +300,11 @@ section h1::after {
     padding: 2em 0 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    grid-gap: 1em;
 }
 
 .skill {
     text-align: center;
-    margin: 1em 1em 0 0;
 }
 
 .skill img {
