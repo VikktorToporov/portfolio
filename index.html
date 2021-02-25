@@ -3,29 +3,41 @@
 
 <meta charset="UTF-8">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Viktor Toporov">
-    <meta name="author" content="Viktor Toporov">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Portfolio of Viktor Toporov" name="description">
+    <meta content="Viktor Toporov" name="author">
     <title>Viktor Toporov | Front-End Web Developer</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
           integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-          crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/animate_4.1.1.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
+          rel="stylesheet"/>
+    <link href="css/animate_4.1.1.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
 </head>
 
 <body>
 <header class="animate__animated">
-    <a id="logo" href="index.html">Viktor Toporov</a>
+    <a href="index.html" id="logo">Viktor Toporov</a>
 
     <ul>
-        <li><a href="#landing">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#work">Projects</a></li>
-        <li><a href="#past">My Past</a></li>
-        <li><a href="#story">My Story</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <li>
+            <a href="#landing">Home</a>
+        </li>
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#work">Projects</a>
+        </li>
+        <li>
+            <a href="#past">My Past</a>
+        </li>
+        <li>
+            <a href="#story">My Story</a>
+        </li>
+        <li>
+            <a href="#contact">Contact Me</a>
+        </li>
     </ul>
 
     <a id="hamburger"><i class="fas fa-bars"></i></a>
@@ -41,11 +53,11 @@
 </div>
 <main>
     <div id="landing">
-        <div id="landingText" class="newStuff animate__animated">
+        <div class="newStuff animate__animated" id="landingText">
             <h1>Turn your ideas into a beautiful reality</h1>
             <p>Viktor Toporov | Front-End Web Developer</p>
-            <a id="landingWorkBtn" href="#work">See my work</a>
-            <a id="landingContactBtn" href="#contact">Contact me</a>
+            <a href="#work" id="landingWorkBtn">See my work</a>
+            <a href="#contact" id="landingContactBtn">Contact me</a>
         </div>
     </div>
     <section id="skills">
@@ -95,7 +107,7 @@
     </section>
     <section id="work">
         <h1>My recent projects</h1>
-        <div id="projects" class="newStuff animate__animated">
+        <div class="newStuff animate__animated" id="projects">
             <div class="flip animate__animated" style="animation-delay: 5s;">
                 <div class="front" style="background-image: url('imgs/projects/project1.jpg');">
                 </div>
@@ -190,15 +202,20 @@
                     <h3>Computer Science</h3>
                 </div>
             </div>
-            <div class="pastTime time1 animate__animated"><img alt="Timeline icon" src="imgs/illustrations/time.png"/>
+            <div class="pastTime time1 animate__animated">
+                <img alt="Timeline icon" src="imgs/illustrations/time.png"/>
             </div>
-            <div class="pastTime time2 animate__animated"><img alt="Timeline icon" src="imgs/illustrations/time.png"/>
+            <div class="pastTime time2 animate__animated">
+                <img alt="Timeline icon" src="imgs/illustrations/time.png"/>
             </div>
-            <div class="pastTime time3 animate__animated"><img alt="Timeline icon" src="imgs/illustrations/time.png"/>
+            <div class="pastTime time3 animate__animated">
+                <img alt="Timeline icon" src="imgs/illustrations/time.png"/>
             </div>
-            <div class="pastTime time4 animate__animated"><img alt="Timeline icon" src="imgs/illustrations/time.png"/>
+            <div class="pastTime time4 animate__animated">
+                <img alt="Timeline icon" src="imgs/illustrations/time.png"/>
             </div>
-            <div class="pastTime time5 animate__animated"><img alt="Timeline icon" src="imgs/illustrations/time.png"/>
+            <div class="pastTime time5 animate__animated">
+                <img alt="Timeline icon" src="imgs/illustrations/time.png"/>
             </div>
             <div class="pastInfo info1 animate__animated">
                 <div>
@@ -237,7 +254,7 @@
     <section id="story">
         <h1>My story</h1>
         <div id="storyFlex">
-            <div id="storyImg" class="animate__animated">
+            <div class="animate__animated" id="storyImg">
                 <img alt="My face" src="imgs/pictures/me.jpg"/>
             </div>
             <div id="storyText">
@@ -262,17 +279,20 @@
     <section id="contact">
         <h1 class="animate__animated" style="animation-delay: 3s;">Let's work together!</h1>
         <div id="contactForm">
-            <div id="contactFirstFix" class="animate__animated">
+            <div class="animate__animated" id="contactFirstFix">
                 <div>
                     <label>Your email*
-                        <input type="text"></label>
+                        <input type="text">
+                    </label>
                     <label>Your message*
                         <textarea></textarea></label>
                     <a id="contactBtn">Send</a>
                 </div>
             </div>
-            <div class="contactImg animate__animated"><img alt="Contact image" src="imgs/illustrations/contact.svg"
-                                                           style="width: 100%;"></div>
+            <div class="contactImg animate__animated">
+                <img alt="Contact image" src="imgs/illustrations/contact.svg"
+                     style="width: 100%;">
+            </div>
         </div>
     </section>
     <footer>

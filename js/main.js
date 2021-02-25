@@ -66,14 +66,14 @@ jQuery(function () {
         updateAnimations();
     });
     //NAV
-    $('#hamburger').on( "click",function () {
+    $('#hamburger').on("click", function () {
         $('.mobileNav').css('right', '0');
     });
-    $('#closeMobile, main, .mobileNav *').on( "click",function () {
+    $('#closeMobile, main, .mobileNav *').on("click", function () {
         $('.mobileNav').css('right', '-100vw');
     });
     //toggle front and back sides of projects
-    $('.flip').on( "click",function () {
+    $('.flip').on("click", function () {
         //show back of clicked el
         $(this).children('.front').toggleClass('frontToggle');
         $(this).children('.back').toggleClass('backToggle').css('z-index', '1');
@@ -89,7 +89,7 @@ jQuery(function () {
             }, 500);
     });
     //FORM
-    $('#contactBtn').on( "click",function () {
+    $('#contactBtn').on("click", function () {
         $('#contactForm input').css('border-color', '#bdbdbd');
         $('#contactForm textarea').css('border-color', '#bdbdbd');
         let email = $('#contactForm input').val(),
@@ -111,7 +111,7 @@ jQuery(function () {
         }
     });
     //Smooth Scroll
-    $("a").on('click', function(event) {
+    $("a").on('click', function (event) {
         if (this.hash !== "") {
             // Prevent default anchor click behavior
             event.preventDefault();
@@ -121,7 +121,7 @@ jQuery(function () {
 
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, function(){
+            }, 800, function () {
 
                 window.location.hash = hash;
             });
