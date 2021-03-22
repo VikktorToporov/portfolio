@@ -67,10 +67,10 @@ jQuery(function () {
     });
     //NAV
     $('#hamburger').on("click", function () {
-        $('.mobileNav').css('right', '0');
+        $('.mobileNav').addClass('showMobile');
     });
     $('#closeMobile, main, .mobileNav *').on("click", function () {
-        $('.mobileNav').css('right', '-100vw');
+        $('.mobileNav').removeClass('showMobile');
     });
     //toggle front and back sides of projects
     $('.flip').on("click", function () {

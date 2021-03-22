@@ -40,12 +40,14 @@
 </header>
 <div class="mobileNav">
     <a id="closeMobile"><i class="fas fa-times"></i></a>
-    <a class="mobileNavLink" href="#landing">Home</a>
-    <a class="mobileNavLink" href="#skills">Skills</a>
-    <a class="mobileNavLink" href="#work">Projects</a>
-    <a class="mobileNavLink" href="#past">My Past</a>
-    <a class="mobileNavLink" href="#story">My Story</a>
-    <a class="mobileNavLink" href="#contact">Contact Me</a>
+    <div class="mobileNavFlexContainer">
+        <a class="mobileNavLink" href="#landing">Home</a>
+        <a class="mobileNavLink" href="#skills">Skills</a>
+        <a class="mobileNavLink" href="#work">Projects</a>
+        <a class="mobileNavLink" href="#past">My Past</a>
+        <a class="mobileNavLink" href="#story">My Story</a>
+        <a class="mobileNavLink" href="#contact">Contact Me</a>
+    </div>
 </div>
 <main>
     <div id="landing">
@@ -104,58 +106,19 @@
     <section id="work">
         <h1>My recent projects</h1>
         <div class="newStuff animate__animated" id="projects">
-            <div class="flip animate__animated" style="animation-delay: 5s;">
-                <div class="front" style="background-image: url('imgs/projects/project1.jpg');">
-                </div>
-                <div class="back">
-                    <h2>Restaurant Website</h2>
-                    <p>A full website for a restaurant with gallery and menu pages.</p>
-                    <a href="#">View</a>
+            <div class="project animate__animated" style="animation-delay: 5s;">
+                <div class="project-img" style="background-image: url('imgs/projects/beats.jpg');">
+                    <a href="" class="project-link">View</a>
                 </div>
             </div>
-            <div class="flip">
-                <div class="front" style="background-image: url('imgs/projects/project2.jpg');">
-                </div>
-                <div class="back">
-                    <h2>Bank Front Page</h2>
-                    <p>A website front page for a fake bank. Responsive design.</p>
-                    <a href="#">View</a>
+            <div class="project animate__animated" style="animation-delay: 5s;">
+                <div class="project-img" style="background-image: url('imgs/projects/health.jpg');">
+                    <a href="" class="project-link">View</a>
                 </div>
             </div>
-            <div class="flip">
-                <div class="front" style="background-image: url('imgs/projects/project1.jpg');">
-                </div>
-                <div class="back">
-                    <h2>Restaurant Website</h2>
-                    <p>A full website for a restaurant with gallery and menu pages.</p>
-                    <a href="#">View</a>
-                </div>
-            </div>
-            <div class="flip">
-                <div class="front" style="background-image: url('imgs/projects/project2.jpg');">
-                </div>
-                <div class="back">
-                    <h2>Bank Front Page</h2>
-                    <p>A website front page for a fake bank. Responsive design.</p>
-                    <a href="#">View</a>
-                </div>
-            </div>
-            <div class="flip">
-                <div class="front" style="background-image: url('imgs/projects/project1.jpg');">
-                </div>
-                <div class="back">
-                    <h2>Restaurant Website</h2>
-                    <p>A full website for a restaurant with gallery and menu pages.</p>
-                    <a href="#">View</a>
-                </div>
-            </div>
-            <div class="flip">
-                <div class="front" style="background-image: url('imgs/projects/project2.jpg');">
-                </div>
-                <div class="back">
-                    <h2>Bank Front Page</h2>
-                    <p>A website front page for a fake bank. Responsive design.</p>
-                    <a href="#">View</a>
+            <div class="project animate__animated" style="animation-delay: 5s;">
+                <div class="project-img" style="background-image: url('imgs/projects/tangra.jpg');">
+                    <a href="" class="project-link">View</a>
                 </div>
             </div>
         </div>
@@ -163,13 +126,13 @@
     <section id="past">
         <h1>My past</h1>
         <div id="pastGrid">
-            <div class="pastPos pos1 animate__animated">
-                <div>
-                    <h2>???</h2>
-                    <span>202? - 20??</span>
-                    <h3>Front-end web developer</h3>
-                </div>
-            </div>
+<!--            <div class="pastPos pos1 animate__animated">-->
+<!--                <div>-->
+<!--                    <h2>???</h2>-->
+<!--                    <span>202? - 20??</span>-->
+<!--                    <h3>Front-end web developer</h3>-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="pastPos pos2 animate__animated">
                 <div>
                     <h2>University</h2>
@@ -198,9 +161,9 @@
                     <h3>Computer Science</h3>
                 </div>
             </div>
-            <div class="pastTime time1 animate__animated">
-                <img alt="Timeline icon" src="imgs/illustrations/time.png"/>
-            </div>
+<!--            <div class="pastTime time1 animate__animated">-->
+<!--                <img alt="Timeline icon" src="imgs/illustrations/time.png"/>-->
+<!--            </div>-->
             <div class="pastTime time2 animate__animated">
                 <img alt="Timeline icon" src="imgs/illustrations/time.png"/>
             </div>
@@ -213,22 +176,22 @@
             <div class="pastTime time5 animate__animated">
                 <img alt="Timeline icon" src="imgs/illustrations/time.png"/>
             </div>
-            <div class="pastInfo info1 animate__animated">
-                <div>
-                    <p>This part of my resume is yet to become reality. Maybe I will work at a company, maybe I won't.
-                       Only time shall tell.</p>
-                </div>
-            </div>
+<!--            <div class="pastInfo info1 animate__animated">-->
+<!--                <div>-->
+<!--                    <p>This part of my resume is yet to become reality. Maybe I will work at a company, maybe I won't.-->
+<!--                       Only time shall tell.</p>-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="pastInfo info2 animate__animated">
                 <div>
-                    <p>I have enrolled in 'New Bulgarian University' and I study Computer Science which includes web
+                    <p>I have enrolled in 'New Bulgarian University' and I study Informatics, which includes web
                        development in the curriculum.</p>
                 </div>
             </div>
             <div class="pastInfo info3 animate__animated">
                 <div>
-                    <p>I'm as a freelance web developer I have done several projects, some of which are in the section
-                       'My Projects' on this site.</p>
+                    <p>As a freelance web developer I have done several projects, some of which are in the section
+                       'My Projects' on this website.</p>
                 </div>
             </div>
             <div class="pastInfo info4 animate__animated">
@@ -239,7 +202,7 @@
             </div>
             <div class="pastInfo info5 animate__animated">
                 <div>
-                    <p>In high school I studied Computer Sciences, which included web development in the curriculum.</p>
+                    <p>In high school I studied Informatics, which included web development in the curriculum.</p>
                 </div>
             </div>
             <div class="pastImg animate__animated">
@@ -258,15 +221,14 @@
                 <h2 class="animate__animated" style="animation-duration: 1s;">Viktor Toporov</h2>
                 <div class="animate__animated" style="animation-duration: 1.5s;">
                     <p>I am a front-end web developer / designer currently living in Sofia, Bulgaria. Throughout the
-                       years of my high school education I created several web projects. My work has been awarded
+                       years of my high school education I've created many web projects, some of which have been awarded
                        national and international prizes at competitions,
                        hackathons
                        and conferences.</p>
                     <p>I had studied Informatics in high school before enrolling in New Bulgarian University where I am
-                       currently pursuing a degree in Computer Science.
+                       currently pursuing a degree in the same field.
                     </p>
-                    <p>I have been freelancing as a web developer and designer since 2018. Also, I have been working
-                       half-time as a front-end web developer since 2021.
+                    <p>I have been freelancing as a web developer and designer since 2018.
                     </p>
                 </div>
             </div>
