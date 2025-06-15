@@ -1,4 +1,6 @@
 jQuery(function () {
+    $('#year').append((new Date().getFullYear()));
+
     //check if element is on screen
     jQuery.expr.pseudos.offscreen = function (el) {
         let rect = el.getBoundingClientRect();
